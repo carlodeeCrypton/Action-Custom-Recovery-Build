@@ -1,4 +1,4 @@
-name: Recovery Build
+name: TWRP Test-Build
 
 on:
   workflow_dispatch:
