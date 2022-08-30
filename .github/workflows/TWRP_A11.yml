@@ -1,4 +1,4 @@
-name: TWRP_A11 Build
+name: TWRP A12 Build
 
 on:
   workflow_dispatch:
@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'rhode_g-user-11-S1SR32.38-112-6feb1-release-keys'
+        default: 'rhode-12.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
