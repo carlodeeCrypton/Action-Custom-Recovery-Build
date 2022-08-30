@@ -109,6 +109,11 @@ cat ssh_host_ed25519_key
 
 ## Compilation results
 Can be downloaded at [Release](../../releases)
+## Legends/Acronyms Tags
+ar = alpha release
+br = beta release
+or = official release (not possible)
+
 
 -----
 ## Remark
