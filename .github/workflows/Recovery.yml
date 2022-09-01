@@ -18,7 +18,7 @@ on:
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'full_akita_row_wifi-user-10-QP1A.190711.020-TB-8505F_U-release-keys'
+        default: '10.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
