@@ -1,4 +1,4 @@
-name: TWRP Test-Build
+name: Redmi Note 9T (cannong) Build
 
 on:
   workflow_dispatch:
