@@ -14,11 +14,11 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/s0umyaz/device_lenovo_8505F'
+        default: 'https://github.com/carlodeeCrypton/android_device_lenovo_akita_row_wifi'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: '10.1'
+        default: 'Android-Q'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
