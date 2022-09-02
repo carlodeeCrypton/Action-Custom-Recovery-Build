@@ -36,7 +36,7 @@ on:
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_akita_row_wifi'
+        default: 'twrp_akita_row_wifi'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
