@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/carlodeeCrypton/device_lenovo_akita_row_wifi'
+        default: 'https://github.com/HemanthJabalpuri/twrp_Lenovo_TB8505F'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: '10.1'
+        default: 'android-10.1'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/lenovo/akita_row_wifi'
+        default: 'device/lenovo/TB8505F'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'akita_row_wifi'
+        default: 'TB8505F'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'omni_akita_row_wifi'
+        default: 'omni_TB8505F'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
