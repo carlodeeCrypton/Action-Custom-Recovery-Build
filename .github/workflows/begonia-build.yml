@@ -1,4 +1,4 @@
-name: Redmi Note 9T (cannong) Build
+name: Redmi Note 8 Pro (begonia) Build
 
 on:
   workflow_dispatch:
@@ -14,15 +14,15 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/carlodeeCrypton/android_device_xiaomi_cannong'
+        default: 'https://github.com/carlodeeCrypton/custom_recovery_tree_begonia'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'cannong-12.0'
+        default: 'begonia-A11'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
-        default: 'device/xiaomi/cannong'
+        default: 'device/xiaomi/begonia'
       COMMON_TREE_URL:
         description: 'COMMON_TREE_URL (if no common tree, leave blank)'
         required: false
@@ -32,11 +32,11 @@ on:
       DEVICE_NAME:
         description: 'DEVICE_NAME'
         required: true
-        default: 'cannong'
+        default: 'begonia'
       MAKEFILE_NAME:
         description: 'MAKEFILE_NAME'
         required: true
-        default: 'twrp_cannong'
+        default: 'twrp_begonia'
       BUILD_TARGET:
         description: 'BUILD_TARGET'
         required: true
@@ -166,7 +166,7 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/${{ github.event.inputs.BUILD_TARGET }}.img
-        name: ${{ github.event.inputs.DEVICE_NAME }}-${{ github.run_id }}
+        name: Redmi Note 8 Pro (begonia) Build-${{ github.run_id }}
         tag_name: ${{ github.run_id }}
         body: |
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
