@@ -171,6 +171,6 @@ jobs:
         body: |
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
           Device: ${{ github.event.inputs.DEVICE_NAME }}
-          Target: ${{ github.event.inputs.BUILD_TARGET }}.img
+          Target: recovery-${{ github.event.inputs.BUILD_TARGET }}.img
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
