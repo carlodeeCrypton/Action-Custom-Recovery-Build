@@ -166,11 +166,11 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/${{ github.event.inputs.BUILD_TARGET }}.img
-        name: Samsung Galaxy A23 4G TWRP Alpha Build-${{ github.run_id }}
-        tag_name: twrp-alpha-${{ github.run_id }}
+        name: Samsung Galaxy A03 TWRP Alpha Build-${{ github.run_id }}
+        tag_name: a03-${{ github.run_id }}
         body: |
-          Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
-          Device: ${{ github.event.inputs.DEVICE_NAME }}
-          Target: ${{ github.event.inputs.BUILD_TARGET }}.img
+          ## TWRP 3.6.2_11 Alpha v1.0.0 for A03 (recovery)
+              * Initial Build
+
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
