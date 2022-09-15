@@ -170,7 +170,8 @@ jobs:
         tag_name: a03-${{ github.run_id }}
         body: |
           ## TWRP 3.6.2_11 Alpha v1.0.0 for A03 (recovery)
-              * Initial Build
+              
+            - Initial Build
 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
