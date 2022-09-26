@@ -14,7 +14,7 @@ on:
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/carlodeeCrypton/custom_recovery_realme_RMX2117L1.git'
+        default: 'https://github.com/carlodeeCrypton/custom_recovery_realme_RMX2117L1'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
