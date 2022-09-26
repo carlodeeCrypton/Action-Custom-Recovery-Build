@@ -1,4 +1,4 @@
-name: Redmi Note 8 Pro (begonia) Build
+name: Realme Narzo 30 Pro (RMX2117L1) Build
 
 on:
   workflow_dispatch:
