@@ -169,8 +169,8 @@ jobs:
         name: ${{ github.event.inputs.BUILD_TARGET }}-${{ github.run_id }}
         tag_name: ${{ github.run_id }}
         body: |
-          Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
-          Device: ${{ github.event.inputs.DEVICE_NAME }}
-          Target: ${{ github.event.inputs.BUILD_TARGET }}.img
+          Device: Realme Narzo 30 Pro (RMX2117/L1)
+          Manifest: Sync with TWRP 3.6.2_12.1 Source
+          Status: Alpha, Work in Progress...
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
