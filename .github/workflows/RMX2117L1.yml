@@ -166,8 +166,8 @@ jobs:
       uses: softprops/action-gh-release@v1
       with:
         files: workspace/out/target/product/${{ github.event.inputs.DEVICE_NAME }}/${{ github.event.inputs.BUILD_TARGET }}.img
-        name: ${{ github.event.inputs.BUILD_TARGET }}-${{ github.run_id }}
-        tag_name: ${{ github.run_id }}
+        name: Realme Narzo 30 Pro (RMX2117/L1) Alpha-${{ github.run_id }}
+        tag_name: rmx2117-a-${{ github.run_id }}
         body: |
           Device: Realme Narzo 30 Pro (RMX2117/L1)
           Manifest: Sync with TWRP 3.6.2_12.1 Source
