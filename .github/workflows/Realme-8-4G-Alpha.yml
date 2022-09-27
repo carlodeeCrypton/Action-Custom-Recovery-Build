@@ -1,4 +1,4 @@
-name: Alpha-Build for RMX2117L1
+name: Alpha-Build for nashc
 
 on:
   workflow_dispatch:
